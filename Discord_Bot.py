@@ -48,7 +48,7 @@ async def on_message(message):
     await message.channel.send("https://phanute.com/", file=discord.File('pp.jpg'))
 
 
-my_secret = os.getenv("ODgwOTM4Njc0ODI3Njg5OTk0.YSlkEw.PgYADgY-cU3f0TWC02HAVAsWcbA")
+my_secret = os.getenv("")
 
 if __name__ == "__main__" :
     bot.run(my_secret)
